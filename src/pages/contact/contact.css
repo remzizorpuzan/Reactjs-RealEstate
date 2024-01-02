@@ -1,0 +1,43 @@
+@import "../../styles/colors.css";
+@import url("../../styles/fonts.css");
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  width: 100vw; /* Use viewport width for full-width container */
+  padding: 0 20px; /* Adjust padding as needed */
+  box-sizing: border-box;
+  /* Add other necessary styles */
+}
+
+.contact-heading {
+  background-color: var(
+    --primary-color
+  ); /* Set your desired background color */
+  padding: 10px; /* Add padding to provide space around the text */
+  font-size: 36px; /* Adjust font size as needed */
+  text-align: center; /* Center the text */
+  width: 100%;
+  font-family: "OwnersNarrow-Medium", sans-serif;
+  /* Add any other necessary styles */
+}
+
+.container {
+  width: 100%;
+  max-width: 800px; /* Adjust the max-width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  /* Add other necessary styles */
+}
+
+form {
+  width: 100%;
+  max-width: 400px; /* Adjust the max-width as needed */
+  /* Add other necessary styles */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

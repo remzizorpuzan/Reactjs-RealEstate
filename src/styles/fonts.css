@@ -1,0 +1,65 @@
+/* fonts.css */
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../../public/fonts/Gotham-Bold-TR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("../../public/fonts/Gotham-Light-TR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-Black";
+  src: url("../../public/fonts/OwnersNarrow-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-BlackItalic";
+  src: url("../../public/fonts/OwnersNarrow-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-XBlackItalic";
+  src: url("../../public/fonts/OwnersNarrow-XBlackItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-Bold";
+  src: url("../../public/fonts/OwnersNarrow-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-BoldItalic";
+  src: url("../../public/fonts/OwnersNarrow-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-Light";
+  src: url("../../public/fonts/OwnersNarrow-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-LightItalic";
+  src: url("../../public/fonts/OwnersNarrow-LightItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-Medium";
+  src: url("../../public/fonts/OwnersNarrow-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-MediumItalic";
+  src: url("../../public/fonts/OwnersNarrow-MediumItalic.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-Regular";
+  src: url("../../public/fonts/OwnersNarrow-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-XLight";
+  src: url("../../public/fonts/OwnersNarrow-XLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OwnersNarrow-XLightIalic";
+  src: url("../../public/fonts/OwnersNarrow-XLightItalic.ttf")
+    format("truetype");
+}
+:root {
+  /* Define your font variables */
+  --main-font: "Josefin Sans", sans-serif; /* Your desired font stack */
+  /* Add more font variables as needed */
+}

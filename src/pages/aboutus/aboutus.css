@@ -1,0 +1,69 @@
+/* Sections and Containers */
+.about-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the width */
+  background-color: #20247b;
+  /* Other styles */
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio for images */
+  display: block; /* Remove extra space beneath images */
+}
+
+/* About Me Section */
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+
+.about-text h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+
+.about-text p {
+  font-size: 18px;
+  max-width: 450px;
+}
+
+.about-text p mark {
+  font-weight: 600;
+  color: #20247b;
+}
+
+/* About List */
+.about-list {
+  padding-top: 10px;
+}
+
+.about-list .media {
+  padding: 5px 0;
+}
+
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 88px;
+  margin: 0;
+  position: relative;
+}
