@@ -1,0 +1,32 @@
+/* For webkit-based browsers */
+/* Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f4f4f4; /* macOS-like track background color */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0; /* macOS-like thumb color */
+  border-radius: 8px; /* macOS-like thumb border radius */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0; /* Lighter color on hover */
+}
+
+/* For Firefox */
+/* Width */
+* {
+  scrollbar-width: thin;
+}
+
+/* Track */
+* {
+  scrollbar-color: #c0c0c0 #f4f4f4; /* Thumb and track colors */
+}

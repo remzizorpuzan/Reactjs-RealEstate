@@ -1,0 +1,85 @@
+/* propertycard.css */
+
+/* Styles for the property card */
+.property-card {
+  width: 18rem;
+  margin-bottom: 10px;
+}
+
+/* Center card content vertically */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* propertycard.css */
+
+/* Rest of your existing styles... */
+
+/* propertycard.css */
+
+.property-card {
+  /* Adjust card styles */
+}
+
+.property-images-container {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Set the desired height for the images */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.property-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.property-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Adjust the object-fit property as needed */
+}
+
+.navigation-arrows {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrow-nav {
+  cursor: pointer;
+  font-size: 36px;
+  color: var(--primary-color);
+  border-radius: 50%; /* Create a circular shape */
+  opacity: 1; /* Set opacity for semi-transparency */
+  padding: 5px; /* Add padding for larger clickable area */
+}
+
+.left-arrow {
+  margin-left: 10px;
+  color: var(--primary-color);
+}
+
+.right-arrow {
+  margin-right: 10px;
+  color: var(--primary-color);
+}
+
+/* Optional: Adjust Card.Title font size or other styles */
+.card-title {
+  /* Add your styles */
+}
+
+/* Optional: Style for card description or other text */
+.card-text {
+  /* Add your styles */
+}

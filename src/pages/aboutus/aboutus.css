@@ -1,4 +1,6 @@
-/* Sections and Containers */
+@import "../../styles/colors.css";
+@import url("../../styles/fonts.css");
+
 .about-container {
   display: flex;
   flex-direction: column; /* Stack items vertically */
@@ -6,15 +8,18 @@
   align-items: center; /* Center items vertically */
   width: 100%;
   box-sizing: border-box; /* Include padding and border in the width */
-  background-color: #20247b;
+  background-color: var(--accent-color);
+  margin-top: 50px;
+  margin-bottom: 50px;
   /* Other styles */
 }
 
 /* Images */
-img {
+.img-about {
   max-width: 100%;
   height: auto; /* Maintain aspect ratio for images */
   display: block; /* Remove extra space beneath images */
+  border-radius: 10%;
 }
 
 /* About Me Section */
@@ -22,6 +27,7 @@ img {
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 6px;
+  font-family: "OwnersNarrow-Bold", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -44,6 +50,7 @@ img {
 .about-text p {
   font-size: 18px;
   max-width: 450px;
+  font-family: "OwnersNarrow-Medium", sans-serif;
 }
 
 .about-text p mark {

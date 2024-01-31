@@ -52,17 +52,20 @@ const footer = () => {
                   <p>Sosyal medya hesaplarımız.</p>
                   <ul class="social">
                     <li>
-                      <a href="#/">
+                      <a
+                        href="https://www.facebook.com/pasam.gayrimenkul.emlak/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i class="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#/">
-                        <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#/">
+                      <a
+                        href="https://www.instagram.com/pasamemlakgayrimenkul/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         <i class="fab fa-instagram"></i>
                       </a>
                     </li>
@@ -76,16 +79,16 @@ const footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#/">Hakkımızda</a>
+                      <a href="hakkimizda">Hakkımızda</a>
                     </li>
                     <li>
-                      <a href="#/">Hizmetler</a>
+                      <a href="hizmetlerimiz">Hizmetler</a>
                     </li>
                     <li>
-                      <a href="#/">Portfolyo</a>
+                      <a href="ilanlar">Portfolyo</a>
                     </li>
                     <li>
-                      <a href="#/">İletişim</a>
+                      <a href="iletisim">İletişim</a>
                     </li>
                   </ul>
                 </div>

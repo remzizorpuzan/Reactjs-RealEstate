@@ -1,5 +1,5 @@
 import React from "react";
-import headPhoto from "./../photos/banner_01.jpg";
+import headPhoto from "./../photos/banner_01.png";
 import "./styles.css";
 
 const HeadPhoto2 = () => {

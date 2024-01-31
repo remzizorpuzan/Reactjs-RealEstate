@@ -1,20 +1,12 @@
 @import "../../styles/colors.css";
 @import url("../../styles/fonts.css");
 
-/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Ensure the wrapper spans the entire width */
-.wrapper {
-  width: 100%;
-  /* Add other necessary styles */
-}
-
-/* Your top bar styles */
 .top {
   width: 100%;
   height: 50px;
@@ -22,18 +14,20 @@
   position: sticky;
   top: 0;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   z-index: 999;
   font-family: "OwnersNarrow-XBlack", sans-serif;
-  /* Other styles for the top bar */
 }
 
 .topLeft,
 .topRight {
-  flex: 3;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.topCenter {
+  flex: 1;
 }
 
 .topIcon {
@@ -80,4 +74,59 @@
   font-size: 18px;
   color: #666;
   cursor: pointer;
+}
+
+/* Add these styles to your CSS file or style block */
+
+/* Center the dropdown toggle button */
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%; /* Add this to make the button full-width */
+}
+
+/* Customize the background of the dropdown toggle button */
+.dropdown-toggle.btn {
+  background-color: #ff9700; /* Replace with your desired background color */
+  border: 1px solid #ff9700; /* Replace with your desired border color */
+  color: white; /* Replace with your desired text color */
+  font-size: 18px;
+  font-family: "OwnersNarrow-XBlack", sans-serif;
+}
+
+/* Optional: Add padding or other styles as needed */
+.dropdown-toggle.btn {
+  padding: 10px;
+}
+
+/* Optional: Hover styles for the dropdown toggle button */
+.dropdown-toggle.btn:hover {
+  background-color: blue; /* Replace with your desired hover background color */
+  color: white; /* Replace with your desired hover text color */
+}
+
+@media only screen and (max-width: 768px) {
+  .top {
+    height: 60px;
+  }
+
+  .topLeft,
+  .topRight {
+    display: none;
+  }
+
+  .topCenter {
+    flex: 12;
+  }
+
+  .topListItem {
+    font-size: 16px;
+  }
+
+  .topImg {
+    width: 30px;
+    height: 30px;
+  }
 }

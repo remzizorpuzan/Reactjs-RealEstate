@@ -55,8 +55,13 @@ const Aboutus = () => {
           </div>
         </div>
         <div class="col-lg-6">
-          <div class="about-avatar">
-            <img src={avatarImage} alt="Avatar" title="Avatar" />
+          <div class="img-about">
+            <img
+              style={{ borderRadius: "10%" }}
+              src={avatarImage}
+              alt="Avatar"
+              title="Avatar"
+            />
           </div>
         </div>
       </div>

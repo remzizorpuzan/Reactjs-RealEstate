@@ -1,0 +1,147 @@
+.property-details-container {
+  padding: 20px;
+  border: 3px solid #ff9700;
+  border-radius: 10px;
+  background-color: #f5eaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Align items vertically on small screens */
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.image-gallery {
+  width: 100%;
+  max-width: 700px; /* Adjusted max-width for better responsiveness */
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.features {
+  text-align: center; /* Center text on small screens */
+  width: 100%;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list li {
+  margin-bottom: 10px;
+}
+
+/* Adjust styles for full-screen mode */
+.property-details-container.full-screen img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Additional adjustments for image popup */
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s,
+    opacity 0.5s linear;
+}
+
+.image-popup.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-image {
+  max-width: 90%;
+  max-height: 90vh;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+}
+
+/* Arrows styles */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 35px;
+  color: #000;
+  padding: 10px;
+}
+
+.arrow.prev {
+  left: 10px;
+}
+
+.arrow.next {
+  right: 10px;
+}
+
+/* Clickable circle styles */
+.clickable-circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.clickable-circle:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .property-details-container {
+    padding: 10px;
+  }
+
+  .image-gallery {
+    margin-right: 0;
+  }
+
+  .property-image {
+    height: auto;
+  }
+
+  .features {
+    text-align: center;
+  }
+}

@@ -47,18 +47,30 @@ export default function Header() {
         position: "relative",
         width: "100%",
         overflow: "hidden",
-        height: "800px",
+        height: "100%", // Set a fixed height for the image container
       }}
     >
       {/* Display the current image */}
       <div
         style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           transition: "opacity 0.5s ease-in-out",
           opacity: isTransitioning ? 0 : 1,
           height: "100%",
+          width: "100%", // Ensure the image occupies the entire container
         }}
       >
-        {imageComponents[currentImageIndex]}
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            overflow: "hidden", // Hide any overflowing content
+          }}
+        >
+          {imageComponents[currentImageIndex]}
+        </div>
       </div>
 
       {/* Styled arrow buttons */}

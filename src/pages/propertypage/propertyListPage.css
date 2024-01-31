@@ -1,0 +1,75 @@
+@import "../../styles/colors.css";
+@import url("../../styles/fonts.css");
+
+/* Style for the overall property list */
+.property-list-container {
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Style for the row and column layout */
+.property-list-row {
+  margin-top: 20px; /* Adjust margin as needed */
+  align-items: center;
+  justify-content: center;
+}
+
+.property-list-col {
+  display: flex;
+  justify-content: center;
+  width: 30rem;
+  align-items: center;
+}
+
+/* Style for each individual property card */
+.property-card {
+  width: 25rem;
+  margin-bottom: 2px;
+}
+
+/* Center card content vertically */
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Optional: Style for property images */
+.property-images {
+  /* Add your styles for images, e.g., set max-height or max-width */
+}
+
+/* Optional: Adjust Card.Title font size or other styles */
+.card-title {
+  font-size: 24px;
+  font-family: "Gotham-Bold", sans-serif;
+  color: var(--primary-color);
+}
+
+/* Optional: Style for card description or other text */
+.card-text {
+  font-family: "OwnersNarrow-Medium", sans-serif;
+  color: var(--primary-color);
+}
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+/* Target the pagination item link */
+.pagination > .page-link {
+  color: #ff9700;
+}
+
+/* Target the active pagination item */
+.pagination > .page-item.active .page-link {
+  background-color: #ff9700;
+  border-color: #ff9700;
+  color: #fff; /* Text color for active page */
+}
+
+/* Target the hover effect of pagination items */
+.pagination > .page-item:hover .page-link {
+  background-color: #ff9700;
+  border-color: #ff9700;
+  color: #fff; /* Text color on hover */
+}

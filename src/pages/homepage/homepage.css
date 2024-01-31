@@ -7,3 +7,9 @@
   background-color: var(--accent-color);
   width: 100%;
 }
+
+@media (max-width: 767px) {
+  .home {
+    padding: 20px;
+  }
+}
