@@ -21,3 +21,7 @@ Real Estate project which includes advertisement and posting publication.
 `docker run -p 3000:3000 -d <namespace>`
 
 ### Go to http://localhost:3000
+
+## Sample Screenshot of Mainpage
+
+![MainPageSS](https://github.com/remzizorpuzan/Reactjs-RealEstate/blob/main/MainPageSS.png)
