@@ -3,22 +3,21 @@
 
 .about-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  box-sizing: border-box; /* Include padding and border in the width */
+  box-sizing: border-box;
   background-color: var(--accent-color);
   margin-top: 50px;
   margin-bottom: 50px;
-  /* Other styles */
 }
 
 /* Images */
 .img-about {
   max-width: 100%;
-  height: auto; /* Maintain aspect ratio for images */
-  display: block; /* Remove extra space beneath images */
+  height: auto;
+  display: block;
   border-radius: 10%;
 }
 
@@ -58,7 +57,6 @@
   color: #20247b;
 }
 
-/* About List */
 .about-list {
   padding-top: 10px;
 }

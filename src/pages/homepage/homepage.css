@@ -2,8 +2,8 @@
 
 .home {
   display: flex;
-  justify-content: center; /* Horizontally centers content */
-  align-items: center; /* Vertically centers content, if needed */
+  justify-content: center;
+  align-items: center;
   background-color: var(--accent-color);
   width: 100%;
 }

@@ -47,7 +47,7 @@ export default function Header() {
         position: "relative",
         width: "100%",
         overflow: "hidden",
-        height: "100%", // Set a fixed height for the image container
+        height: "100%",
       }}
     >
       {/* Display the current image */}
@@ -59,14 +59,14 @@ export default function Header() {
           transition: "opacity 0.5s ease-in-out",
           opacity: isTransitioning ? 0 : 1,
           height: "100%",
-          width: "100%", // Ensure the image occupies the entire container
+          width: "100%",
         }}
       >
         <div
           style={{
             width: "100%",
             height: "100%",
-            overflow: "hidden", // Hide any overflowing content
+            overflow: "hidden",
           }}
         >
           {imageComponents[currentImageIndex]}

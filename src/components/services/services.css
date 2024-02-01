@@ -4,8 +4,6 @@ body {
   width: 100%;
 }
 
-/* Feature Box
----------------------*/
 .feature-box-1 {
   padding: 32px;
   box-shadow: var(--primary-color);
@@ -96,11 +94,9 @@ body {
 }
 
 @media (max-width: 767px) {
-  /* Adjustments for smaller screens */
-
   .feature-box-1 {
-    width: 100%; /* Make the component take the full width */
-    margin-bottom: 20px; /* Add some space between stacked components */
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .feature-box-1 .icon {
@@ -111,10 +107,10 @@ body {
   }
 
   .section {
-    padding: 50px 0; /* Adjust padding for smaller screens */
+    padding: 50px 0;
   }
 
   .section-title h2 {
-    font-size: 30px; /* Adjust font size for section titles */
+    font-size: 30px;
   }
 }

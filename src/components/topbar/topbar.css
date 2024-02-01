@@ -76,35 +76,29 @@
   cursor: pointer;
 }
 
-/* Add these styles to your CSS file or style block */
-
-/* Center the dropdown toggle button */
 .dropdown-toggle {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%; /* Add this to make the button full-width */
+  width: 100%;
 }
 
-/* Customize the background of the dropdown toggle button */
 .dropdown-toggle.btn {
-  background-color: #ff9700; /* Replace with your desired background color */
-  border: 1px solid #ff9700; /* Replace with your desired border color */
-  color: white; /* Replace with your desired text color */
+  background-color: #ff9700;
+  border: 1px solid #ff9700;
+  color: white;
   font-size: 18px;
   font-family: "OwnersNarrow-XBlack", sans-serif;
 }
 
-/* Optional: Add padding or other styles as needed */
 .dropdown-toggle.btn {
   padding: 10px;
 }
 
-/* Optional: Hover styles for the dropdown toggle button */
 .dropdown-toggle.btn:hover {
-  background-color: blue; /* Replace with your desired hover background color */
-  color: white; /* Replace with your desired hover text color */
+  background-color: blue;
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {

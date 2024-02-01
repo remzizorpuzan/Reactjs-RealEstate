@@ -1,5 +1,3 @@
-/* For webkit-based browsers */
-/* Width */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -28,5 +26,5 @@
 
 /* Track */
 * {
-  scrollbar-color: #c0c0c0 #f4f4f4; /* Thumb and track colors */
+  scrollbar-color: #c0c0c0 #f4f4f4;
 }

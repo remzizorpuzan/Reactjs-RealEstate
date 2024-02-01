@@ -1,12 +1,10 @@
 /* colors.css */
 
 :root {
-  /* Define your color variables */
   --primary-color: #ff9700; /* Primary color */
   --secondary-color: #f5eaea; /* Secondary color */
   --accent-color: #f8f8f8; /* Accent color */
   --text-color: #111319; /* Text color */
   --primary-green: #088420; /* Primary green*/
   --secondary-green: #012101; /* Primary green*/
-  /* Add more color variables as needed */
 }

@@ -1,5 +1,5 @@
 .services-page-section {
-  height: 160vh; /* Set the section height to fill the viewport */
+  height: 160vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,21 +8,21 @@
 
 .services-page-card {
   width: 100%;
-  max-width: 1100px; /* Adjust the maximum width of each card */
-  margin: 0 auto; /* Center the cards horizontally */
+  max-width: 1100px;
+  margin: 0 auto;
   padding-top: 40px;
   margin-bottom: 45px;
 }
 .icon-servicepage {
   display: flex;
   align-items: center;
-  margin-bottom: 15px; /* Adjust the spacing between icon and text */
+  margin-bottom: 15px;
   color: #ff9700;
 }
 
 .icon-servicepage svg {
-  font-size: 36px; /* Set the icon size */
-  margin-right: 15px; /* Adjust the space between icon and text */
+  font-size: 36px;
+  margin-right: 15px;
 }
 .card-title {
   color: #111319;

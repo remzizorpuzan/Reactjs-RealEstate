@@ -59,7 +59,5 @@
     format("truetype");
 }
 :root {
-  /* Define your font variables */
-  --main-font: "Josefin Sans", sans-serif; /* Your desired font stack */
-  /* Add more font variables as needed */
+  --main-font: "Josefin Sans", sans-serif;
 }
