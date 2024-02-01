@@ -4,17 +4,17 @@ import PropertyCard from "../../components/property/PropertyCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Pagination from "react-bootstrap/Pagination";
-import "./propertyListPage.css"; // Import the CSS file
+import "./propertyListPage.css"; 
 
 const PropertyListPage = () => {
-  const itemsPerPage = 9; // Number of items to display per page
+  const itemsPerPage = 9; 
   const [currentPage, setCurrentPage] = useState(1);
   const [displayProperties, setDisplayProperties] = useState([]);
 
   const indexOfLastProperty = currentPage * itemsPerPage;
   const indexOfFirstProperty = indexOfLastProperty - itemsPerPage;
   const slicedProperties = properties
-    .sort((a, b) => a.id - b.id) // Sort properties based on ID
+    .sort((a, b) => a.id - b.id)
     .slice(indexOfFirstProperty, indexOfLastProperty);
 
   useEffect(() => {
