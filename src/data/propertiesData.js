@@ -29,6 +29,13 @@ import ilanImage72 from "../styles/photos/ilan_7_2.jpg";
 import ilanImage73 from "../styles/photos/ilan_7_3.jpg";
 import ilanImage74 from "../styles/photos/ilan_7_4.jpg";
 import ilanImage75 from "../styles/photos/ilan_7_5.jpg";
+import ilanImage76 from "../styles/photos/ilan_7_6.jpg";
+import ilanImage77 from "../styles/photos/ilan_7_7.jpg";
+import ilanImage78 from "../styles/photos/ilan_7_8.jpg";
+import ilanImage79 from "../styles/photos/ilan_7_9.jpg";
+import ilanImage710 from "../styles/photos/ilan_7_10.jpg";
+import ilanImage711 from "../styles/photos/ilan_7_11.jpg";
+import ilanImage712 from "../styles/photos/ilan_7_12.jpg";
 import ilanImage81 from "../styles/photos/ilan_8_1.jpg";
 import ilanImage82 from "../styles/photos/ilan_8_2.jpg";
 import ilanImage83 from "../styles/photos/ilan_8_3.jpg";
@@ -64,6 +71,14 @@ import ilanImage151 from "../styles/photos/ilan_15_1.jpg";
 import ilanImage161 from "../styles/photos/ilan_16_1.jpg";
 import ilanImage171 from "../styles/photos/ilan_17_1.jpg";
 import ilanImage181 from "../styles/photos/ilan_18_1.jpg";
+import ilanImage191 from "../styles/photos/ilan_19_1.jpg";
+import ilanImage192 from "../styles/photos/ilan_19_2.jpg";
+import ilanImage193 from "../styles/photos/ilan_19_3.jpg";
+import ilanImage194 from "../styles/photos/ilan_19_4.jpg";
+import ilanImage195 from "../styles/photos/ilan_19_5.jpg";
+import ilanImage196 from "../styles/photos/ilan_19_6.jpg";
+import ilanImage197 from "../styles/photos/ilan_19_7.jpg";
+import ilanImage198 from "../styles/photos/ilan_19_8.jpg";
 
 export const properties = [
   {
@@ -156,13 +171,28 @@ export const properties = [
   },
   {
     id: 7,
-    name: "Satılık Arsa | Şehitalibey Mah.",
-    price: "₺700.000",
-    type: "Arsa",
-    description: `KEMER CADDESİ |
-    131 ADA 142 PARSEL:267.67m2✅
-    İKİZ NİZAM BODRUM+2 KAT✅`,
-    images: [ilanImage71, ilanImage72, ilanImage73, ilanImage74, ilanImage75],
+    name: "Satılık Müstakil ev + tarla | Ağabey Köyü",
+    price: "₺4.200.000",
+    type: "Tarla",
+    description: `95m2 Yeni Yapım ev |
+    ADA : 175 | PARSEL : 2 | Tapu Alanı : 10.900m2✅
+    2 adet sondaj kuyu, 3 inçlik su✅
+    330 adet Chandler cins ceviz, 7 yaşında, Komple yer altı damlama sistemi✅
+    30 TONLUK SU DEPOSU ✅`,
+    images: [
+      ilanImage71,
+      ilanImage72,
+      ilanImage73,
+      ilanImage74,
+      ilanImage75,
+      ilanImage76,
+      ilanImage77,
+      ilanImage78,
+      ilanImage79,
+      ilanImage710,
+      ilanImage711,
+      ilanImage712,
+    ],
     // Add more property details
   },
   {
@@ -321,5 +351,24 @@ export const properties = [
     images: [ilanImage181],
     // Add more property details
   },
-  // Add more properties as needed
+  {
+    id: 19,
+    name: "SATILIK KABA İNŞAATI BİTMİŞ KONUT | CUMHURİYET MAH.",
+    price: "₺1.400.000",
+    type: "Konut",
+    description: `ADA:438-PARSEL:3-TAPU ALANI:464m2✅
+    82m2 Yapı Kayıt belgesi alınmış.✅
+    Elektrik ve su tesisatı döşenmiş, dış pencere ve kapıları takılı.✅
+    BÜYÜK FIRSAT✅`,
+    images: [
+      ilanImage191,
+      ilanImage192,
+      ilanImage193,
+      ilanImage194,
+      ilanImage195,
+      ilanImage196,
+      ilanImage197,
+      ilanImage198,
+    ],
+  },
 ];
