@@ -79,6 +79,11 @@ import ilanImage195 from "../styles/photos/ilan_19_5.jpg";
 import ilanImage196 from "../styles/photos/ilan_19_6.jpg";
 import ilanImage197 from "../styles/photos/ilan_19_7.jpg";
 import ilanImage198 from "../styles/photos/ilan_19_8.jpg";
+import ilanImage201 from "../styles/photos/ilan_20_1.jpg";
+import ilanImage202 from "../styles/photos/ilan_20_2.jpg";
+import ilanImage203 from "../styles/photos/ilan_20_3.jpg";
+import ilanImage204 from "../styles/photos/ilan_20_4.jpg";
+import ilanImage205 from "../styles/photos/ilan_20_5.jpg";
 
 export const properties = [
   {
@@ -239,7 +244,7 @@ export const properties = [
   {
     id: 10,
     name: "Satılık Tarla | Saraycık Köyü",
-    price: "₺2.500.000",
+    price: "₺2.400.000",
     type: "Tarla",
     description: `YERLEŞİK ALAN İÇİNDE EV YAPIMINA UYGUN✅
     ELEKTİRİK  VE ŞEBEKE SU VAR✅
@@ -369,6 +374,22 @@ export const properties = [
       ilanImage196,
       ilanImage197,
       ilanImage198,
+    ],
+  },
+  {
+    id: 20,
+    name: "SATILIK TARLA | SARAYCIK KÖYÜ",
+    price: "₺1.500.000",
+    type: "Tarla",
+    description: `ADA:228-PARSEL:6 -T.ALANI:10.626 m2
+    TARIM VE HAYVANCILIĞA UYGUN✅
+    ASFALTA SIFIR✅ELEKTİRK HATTI VAR✅TAVUK KÜMESİ YAPIMINA UYGUN✅`,
+    images: [
+      ilanImage201,
+      ilanImage202,
+      ilanImage203,
+      ilanImage204,
+      ilanImage205,
     ],
   },
 ];
