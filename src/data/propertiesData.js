@@ -84,6 +84,24 @@ import ilanImage202 from "../styles/photos/ilan_20_2.jpg";
 import ilanImage203 from "../styles/photos/ilan_20_3.jpg";
 import ilanImage204 from "../styles/photos/ilan_20_4.jpg";
 import ilanImage205 from "../styles/photos/ilan_20_5.jpg";
+import ilanImage211 from "../styles/photos/ilan_21_1.jpg";
+import ilanImage212 from "../styles/photos/ilan_21_2.jpg";
+import ilanImage213 from "../styles/photos/ilan_21_3.jpg";
+import ilanImage221 from "../styles/photos/ilan_22_1.jpg";
+import ilanImage222 from "../styles/photos/ilan_22_2.jpg";
+import ilanImage223 from "../styles/photos/ilan_22_3.jpg";
+import ilanImage224 from "../styles/photos/ilan_22_4.jpg";
+import ilanImage225 from "../styles/photos/ilan_22_5.jpg";
+import ilanImage226 from "../styles/photos/ilan_22_6.jpg";
+import ilanImage227 from "../styles/photos/ilan_22_7.jpg";
+import ilanImage228 from "../styles/photos/ilan_22_8.jpg";
+import ilanImage229 from "../styles/photos/ilan_22_9.jpg";
+import ilanImage2210 from "../styles/photos/ilan_22_10.jpg";
+import ilanImage2211 from "../styles/photos/ilan_22_11.jpg";
+import ilanImage2212 from "../styles/photos/ilan_22_12.jpg";
+import ilanImage2213 from "../styles/photos/ilan_22_13.jpg";
+import ilanImage2214 from "../styles/photos/ilan_22_14.jpg";
+import ilanImage2215 from "../styles/photos/ilan_22_15.jpg";
 
 export const properties = [
   {
@@ -390,6 +408,41 @@ export const properties = [
       ilanImage203,
       ilanImage204,
       ilanImage205,
+    ],
+  },
+  {
+    id: 21,
+    name: "SATILIK TARLA | KAYALI KÖYÜ",
+    price: "₺450.000",
+    type: "Tarla",
+    description: `ADA:- -PARSEL:1397 -T.ALANI:11.350 m2
+    TARIM VE HAYVANCILIĞA UYGUN✅
+    KÖY MERKEZİNE YAKIN ✅PAZARLIK VARDIR ✅`,
+    images: [ilanImage211, ilanImage212, ilanImage213],
+  },
+  {
+    id: 22,
+    name: "SATILIK MÜSTAKİL EV | ÜÇ EYLÜL MAHALLESİ",
+    price: "₺3.750.000",
+    type: "Konut",
+    description: `ADA:741 -PARSEL:16 -T.ALANI:367 m2✅
+    110m2 İNŞAAT ALANI✅`,
+    images: [
+      ilanImage221,
+      ilanImage222,
+      ilanImage223,
+      ilanImage224,
+      ilanImage225,
+      ilanImage226,
+      ilanImage227,
+      ilanImage228,
+      ilanImage229,
+      ilanImage2210,
+      ilanImage2211,
+      ilanImage2212,
+      ilanImage2213,
+      ilanImage2214,
+      ilanImage2215,
     ],
   },
 ];
