@@ -102,6 +102,16 @@ import ilanImage2212 from "../styles/photos/ilan_22_12.jpg";
 import ilanImage2213 from "../styles/photos/ilan_22_13.jpg";
 import ilanImage2214 from "../styles/photos/ilan_22_14.jpg";
 import ilanImage2215 from "../styles/photos/ilan_22_15.jpg";
+import ilanImage231 from "../styles/photos/ilan_23_1.jpg";
+import ilanImage232 from "../styles/photos/ilan_23_2.jpg";
+import ilanImage233 from "../styles/photos/ilan_23_3.jpg";
+import ilanImage234 from "../styles/photos/ilan_23_4.jpg";
+import ilanImage235 from "../styles/photos/ilan_23_5.jpg";
+import ilanImage241 from "../styles/photos/ilan_24_1.jpg";
+import ilanImage242 from "../styles/photos/ilan_24_2.jpg";
+import ilanImage243 from "../styles/photos/ilan_24_3.jpg";
+import ilanImage244 from "../styles/photos/ilan_24_4.jpg";
+import ilanImage245 from "../styles/photos/ilan_24_5.jpg";
 
 export const properties = [
   {
@@ -443,6 +453,40 @@ export const properties = [
       ilanImage2213,
       ilanImage2214,
       ilanImage2215,
+    ],
+  },
+  {
+    id: 23,
+    name: "SATILIK TARLA | GÜNEYKÖY",
+    price: "₺350.000",
+    type: "Tarla",
+    description: `ADA:127 -PARSEL:2 -T.ALANI:10.571 m2✅
+    KÖY YERLEŞİMİNE 500 METRE UZAKLIKTA✅
+    ELEKTRİK DİREĞİNE 100 METRE VE SU DEPOSUNA 250 METRE UZAKLIKTA✅
+    TARIM VE HAYVANCILIĞA MÜSAİT✅`,
+    images: [
+      ilanImage231,
+      ilanImage232,
+      ilanImage233,
+      ilanImage234,
+      ilanImage235,
+    ],
+  },
+  {
+    id: 24,
+    name: "SATILIK TARLA | GÜNEYKÖY",
+    price: "₺1.500.000",
+    type: "Tarla",
+    description: `ADA:149 -PARSEL:4 -T.ALANI:45.646 m2✅
+    ELEKTRİK MESAFESİ 100 METRE✅
+    KÖY YOLUNA SIFIR VE YERLEŞİME YAKIN✅
+    TARIM VE TAVUK BESİHANE YAPIMINA MÜSAİT✅`,
+    images: [
+      ilanImage241,
+      ilanImage242,
+      ilanImage243,
+      ilanImage244,
+      ilanImage245,
     ],
   },
 ];
